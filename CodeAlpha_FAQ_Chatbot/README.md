@@ -1,36 +1,26 @@
-#  AI Music Generator (LSTM + Python)
-##  About the Project
-AI Music Generator is a Python-based deep learning project that uses an LSTM neural network to generate original MIDI music.
-It learns patterns from musical sequences and generates new compositions automatically. The project also includes a Tkinter GUI for easy interaction.
+# AI FAQ Chatbot (NLP + Python)
+
+## About the Project
+AI FAQ Chatbot is a Python-based intelligent chatbot that provides instant answers to frequently asked questions related to Artificial Intelligence and emerging technologies. It uses Natural Language Processing (NLP) techniques to understand user queries and return the most relevant responses through an interactive web interface.
+
 Users can:
--  Select different instruments
--  Adjust creativity (temperature)
--  Generate AI-composed music in real time
+- Ask AI-related questions
+- Get instant responses
+- Explore AI concepts and technologies
+- Interact through a simple chatbot interface
 
-##  Features
--  AI-generated MIDI music using LSTM model
--  Multiple instrument support (Piano, Guitar, Violin, Flute, Trumpet)
--  Temperature control for creativity tuning
--  Simple and interactive Tkinter GUI
--  Fast music generation 
--  Output saved as playable MIDI file
+## Features
+- NLP-based question matching
+- Instant AI-powered responses
+- Interactive and user-friendly interface
+- Knowledge base of AI and technology FAQs
+- Fast response generation
+- Web-based chatbot experience
 
-##  Tech Stack
-- Python 
-- TensorFlow / Keras 
-- Music21 
-- NumPy 
-- Tkinter 
-
-##  How to Run
-
-```bash
-# Install dependencies
-pip install -r requirements.txt
-
-# Run GUI
-python gui.py
-🎵 Output
-After generation, music is saved as:
-generated_music.mid
-You can open it in any MIDI player or DAW software.
+## Tech Stack
+- Python
+- Flask
+- HTML
+- CSS
+- JavaScript
+- NLP
