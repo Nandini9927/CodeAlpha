@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NOVA AI - Intelligent FAQ Chatbot</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="main-container">
+
+        <!-- LEFT PANEL -->
+
+        <div class="left-panel">
+
+            <div class="logo-box">
+                <h1>NOVA</h1>
+                <p>Intelligent AI Knowledge Assistant</p>
+            </div>
+
+            <div class="tagline">
+                Explore AI, Machine Learning & Future Technologies
+            </div>
+
+            <div class="description">
+                NOVA is an NLP-powered FAQ chatbot designed to provide accurate and instant answers about
+                Artificial Intelligence, Machine Learning, Deep Learning, NLP, Computer Vision,
+                Generative AI, and emerging technologies.
+            </div>
+
+            <div class="feature-grid">
+
+                <div class="feature-card">
+                    <h3>AI Knowledge Base</h3>
+                    <p>30+ Expert FAQs</p>
+                </div>
+
+                <div class="feature-card">
+                    <h3>NLP Engine</h3>
+                    <p>Smart Question Matching</p>
+                </div>
+
+                <div class="feature-card">
+                    <h3>Real-Time</h3>
+                    <p>Instant Answers</p>
+                </div>
+
+                <div class="feature-card">
+                    <h3>User Friendly</h3>
+                    <p>Interactive Experience</p>
+                </div>
+
+            </div>
+
+            <div class="author-box">
+                <h2>Author</h2>
+                <h3>Nandini Verma</h3>
+                <p>Developed using Python, Flask & NLP</p>
+            </div>
+
+        </div>
+
+        <!-- RIGHT PANEL -->
+
+        <div class="right-panel">
+
+            <div class="chat-header">
+                <div>
+                    <h2>NOVA</h2>
+                    <span>AI Learning Assistant</span>
+                </div>
+            </div>
+
+            <div id="chat-box">
+
+                <div class="bot-message">
+                    Hello 👋 <br><br>
+
+                    I'm NOVA AI Assistant.<br><br>
+
+                    Ask me anything related to Artificial Intelligence, Machine Learning, Deep Learning, NLP, Computer Vision, Generative AI, and emerging technologies.<br><br>
+                    
+                </div>
+
+            </div>
+
+            <div class="input-area">
+
+                <input type="text"
+                    id="user-input"
+                    placeholder="Ask your AI question here...">
+
+                <button onclick="sendMessage()">
+                    Send
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+
+</html>

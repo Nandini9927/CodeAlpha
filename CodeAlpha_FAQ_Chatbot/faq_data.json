@@ -1,0 +1,62 @@
+[
+  {
+    "question": "What is Artificial Intelligence?",
+    "answer": "Artificial Intelligence (AI) is a branch of computer science that enables machines to perform tasks that normally require human intelligence. These tasks include learning, reasoning, problem-solving, decision-making, and understanding language. AI is widely used in virtual assistants, recommendation systems, healthcare, and automation."
+  },
+  {
+    "question": "What is Machine Learning?",
+    "answer": "Machine Learning is a subset of Artificial Intelligence that allows computers to learn from data without being explicitly programmed. It uses algorithms to identify patterns and improve performance over time. Machine Learning is commonly used in spam detection, image recognition, and predictive analytics."
+  },
+  {
+    "question": "What is Deep Learning?",
+    "answer": "Deep Learning is an advanced branch of Machine Learning that uses artificial neural networks with multiple layers. These networks can automatically learn complex patterns from large amounts of data. Deep Learning powers technologies such as speech recognition, self-driving cars, and image classification."
+  },
+  {
+    "question": "What is Natural Language Processing?",
+    "answer": "Natural Language Processing (NLP) is a field of Artificial Intelligence that helps computers understand, interpret, and generate human language. NLP combines linguistics and machine learning techniques. It is used in chatbots, language translation systems, and sentiment analysis applications."
+  },
+  {
+    "question": "What is a chatbot?",
+    "answer": "A chatbot is a software application designed to simulate conversations with users through text or voice interactions. Modern chatbots use Artificial Intelligence and Natural Language Processing to understand user queries. They are commonly used in customer support, education, and virtual assistance."
+  },
+  {
+    "question": "What are neural networks?",
+    "answer": "Neural networks are computational models inspired by the structure of the human brain. They consist of interconnected layers of nodes that process and learn from data. Neural networks are the foundation of many Deep Learning applications, including image recognition and speech processing."
+  },
+  {
+    "question": "What is Data Science?",
+    "answer": "Data Science is an interdisciplinary field that combines statistics, programming, and domain expertise to extract meaningful insights from data. It helps organizations make data-driven decisions. Data Science is widely used in business analytics, healthcare, finance, and research."
+  },
+  {
+    "question": "What is supervised learning?",
+    "answer": "Supervised learning is a Machine Learning approach in which models are trained using labeled data. The algorithm learns the relationship between inputs and known outputs. It is commonly used for classification and prediction tasks such as email filtering and sales forecasting."
+  },
+  {
+    "question": "What is unsupervised learning?",
+    "answer": "Unsupervised learning is a Machine Learning technique where models work with unlabeled data. The goal is to discover hidden structures, patterns, or relationships within the dataset. Common applications include customer segmentation, clustering, and anomaly detection."
+  },
+  {
+    "question": "What is reinforcement learning?",
+    "answer": "Reinforcement learning is a type of Machine Learning in which an agent learns by interacting with an environment. The agent receives rewards for correct actions and penalties for incorrect ones. This approach is widely used in robotics, gaming, and autonomous systems."
+  },
+  {
+    "question": "What is Computer Vision?",
+    "answer": "Computer Vision is a branch of Artificial Intelligence that enables machines to interpret and analyze visual information from images and videos. It uses Deep Learning and image-processing techniques to identify objects, faces, and patterns. Applications include facial recognition, medical imaging, and surveillance systems."
+  },
+  {
+    "question": "What is Generative AI?",
+    "answer": "Generative AI refers to Artificial Intelligence systems that can create new content such as text, images, audio, videos, and code. These models learn patterns from large datasets and generate original outputs. Popular examples include AI chatbots, image generators, and content creation tools."
+  },
+  {
+    "question": "What is AI Ethics?",
+    "answer": "AI Ethics focuses on ensuring that Artificial Intelligence systems are developed and used responsibly. It addresses concerns such as fairness, transparency, accountability, privacy, and bias. Ethical AI helps build trust and ensures technology benefits society as a whole."
+  },
+  {
+    "question": "What is bias in AI?",
+    "answer": "Bias in AI occurs when an algorithm produces unfair or inaccurate results due to biased training data or flawed design. This can lead to discrimination against certain groups of people. Reducing bias is important for creating fair, reliable, and ethical AI systems."
+  },
+  {
+    "question": "What is Explainable AI?",
+    "answer": "Explainable AI (XAI) refers to techniques that make Artificial Intelligence decisions understandable to humans. It helps users know why a model made a particular prediction or recommendation. Explainability improves trust, transparency, and accountability in AI systems."
+  }
+]
